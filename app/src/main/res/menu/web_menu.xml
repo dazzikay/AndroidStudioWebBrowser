@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/refresh"
+        android:icon="@drawable/ic_refresh"
+        app:showAsAction="ifRoom"
+        android:title="Refresh" />
+
+    <item android:id="@+id/home"
+        android:icon="@drawable/ic_home_icon"
+        app:showAsAction="ifRoom"
+        android:title="Home" />
+
+    <item android:id="@+id/forward_button"
+        app:showAsAction="never"
+        android:title="Forward" />
+
+    <item android:id="@+id/set_home_page"
+        app:showAsAction="never"
+        android:title="Set as Homepage" />
+
+
+    <item android:id="@+id/history_page"
+        app:showAsAction="never"
+        android:title="History" />
+
+    <item android:id="@+id/add_bookmark"
+        app:showAsAction="never"
+        android:title="Add bookmark" />
+
+    <item android:id="@+id/saved_bookmarks"
+        app:showAsAction="never"
+        android:title="Bookmarks" />
+
+
+    <item android:id="@+id/clear"
+        app:showAsAction="never"
+        android:title="Clear">
+
+        <menu>
+
+            <item android:id="@+id/clear_history"
+                android:title="Clear History"/>
+
+            <item android:id="@+id/clear_bookmarks"
+                android:title="Clear Bookmarks"/>
+
+        </menu>
+
+    </item>
+
+</menu>
